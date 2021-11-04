@@ -1,0 +1,63 @@
+header {
+  text-align: center;
+}
+body {
+  background-color: #fff;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.row {
+    width: 90%;
+    margin: 0 auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-transform: capitalize;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.sw-cont th {
+  background-color: black;
+  color: yellow;
+}
+
+.pk-cont th {
+  background-color: red;
+  color: white;
+}
+
+.pk-cont h2 {
+  margin: 0;
+}
+
+.sw-cont h2 {
+  margin: 0;
+}
